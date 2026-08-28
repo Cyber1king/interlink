@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+functions/.runtimeconfig.json
+
+# Supabase
+.supabase/
+supabase/.temp/
+
+# Mobile
+mobile/android/app/build/
+mobile/android/app/release/
+mobile/ios/build/
+mobile/ios/Pods/
+mobile/.expo/
+*.apk
+*.aab
+*.ipa
+
+# Flutter
+mobile/flutter/.dart_tool/
+mobile/flutter/build/
+mobile/flutter/*.lock
+mobile/flutter/ephemeral/
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.cer
+*.crt
+google-services.json
+GoogleService-Info.plist
+supabase-key.json
+
+# Misc
+*.local
+*.backup
+*.orig
+.turbo/
